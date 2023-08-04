@@ -1,0 +1,8 @@
+server:
+  port: 9995
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9094
+    consumer:
+      group-id: group-1
